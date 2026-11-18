@@ -1,14 +1,40 @@
 # Color Script
 
-Created by Hannah Huang
+Created by **Hannah Huang**
 
-## Play
-Unzip this folder, then double-click “Color Script.html” to open it in a modern desktop browser (Chrome, Edge, Firefox, or Safari). No installation, server, account, or internet connection is required. Keep the file’s .html extension.
+Color Script is a movie guessing game where you identify films through their color palettes.
 
-## Rules and controls
-Choose the mystery movie from eight titles. You have five guesses; each miss opens another color strip. Optional hints reveal year, director, then one character. At the end, a popup reveals the movie, scene photo, and poster. Choose Next round or Close; View result reopens it. Click/tap buttons, hover over colors, or use Tab and the arrow keys. Sound is optional.
+## How to Play
 
-## Contents
-The HTML contains the game code, all 80 images for 40 playable movies, CSS, and synthesized audio. No extra files are needed. History is saved when the browser permits local storage; otherwise it lasts for this open session. Mobile file viewers may not execute HTML: open it in a full browser or use the hosted game.
+1. Choose a movie from eight possible titles.
+2. You have five guesses. Each incorrect guess reveals another color strip from the same movie.
+3. Use up to three optional hints: release year, director, and character name.
+4. Guess correctly—or use all five guesses—to reveal the movie, a scene photo, and its poster.
+5. Select **Next round** to play again or **Close** to review the colors.
 
-Film data: Letterboxd’s Top 250 Films With the Most Fans. Posters: TMDb. Imagery belongs to its respective rights holders. Color-strip labels describe game progression rather than verified chronological shots.
+## Download and Start
+
+1. Click **Code → Download ZIP** on this repository.
+2. Extract the ZIP.
+3. Open **Color Script.html** in Chrome, Edge, Firefox, or Safari.
+
+No installation, packages, account, or server is required. Once downloaded, the game works offline.
+
+## Controls
+
+- **Click or tap** movie titles to guess.
+- Select **Get a hint** to reveal the next clue.
+- **Hover over colors** to see their hex codes.
+- Use the header controls to toggle **sound** and **light/dark mode**.
+- Select **View result** to reopen a closed result popup.
+
+## Included Files
+
+- **Color Script.html** — the complete game, including 40 playable movies, 80 embedded images, and browser-generated sound.
+- **README.md** — instructions and credits.
+
+## Credits
+
+Movie data is drawn from Letterboxd’s *Top 250 Films With the Most Fans*. Posters are sourced from TMDb. Film imagery belongs to its respective rights holders.
+
+Color-strip labels represent game progression rather than verified chronological movie scenes.
